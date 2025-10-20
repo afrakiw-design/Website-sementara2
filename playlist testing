@@ -1,0 +1,19 @@
+.container-playlist {
+  height: 100vh;
+  background-color: white;
+}
+.main-content {
+  align-items: center;
+  justify-content: center;
+}
+.vidio-content {
+   object-fit: cover;
+  align-items: center;
+  justify-content: center;
+}
+.main-content>.vidio-content {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
